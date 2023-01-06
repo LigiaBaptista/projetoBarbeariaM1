@@ -1,0 +1,15 @@
+#textQuemSomos{
+    text-align: center;
+}
+
+.imgQuemSomos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.imgSettings{
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+}
