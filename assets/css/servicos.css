@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Open+Sans:wght@300&display=swap');
+
+
+/* formatação dos títulos */
+.tituloCabelos,.tituloBarbas,.tituloSobrancelha,.tituloManicure{
+    font-family: 'Bebas Neue', cursive;
+    margin: 1%;
+       
+}
+/* disposição das fotos na pagina */
+.tipoCabelo{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;      
+}
+
+/* bordas da fotos e tamanho das fotos */
+#cabelos1,#cabelos2,#cabelos3,#cabelos4,#cabelos5,#cabelos6,#cabelos7,#cabelos8,#cabelos9,#cabelos10,#cabelos11,#cabelos12,#cabelos13,#cabelos14,#cabelos15 {
+    border: 2px solid black;
+    width: 187px;
+    height: 230px;
+    margin: 6px;    
+}
+
+/* borda externa das fotos */
+.fg1,.fg2,.fg3,.fg4,.fg5,.fg6,.fg7,.fg8,.fg9,.fg10,.fg11,.fg12,.fg13,.fg14,.fg15,.precoM,.precoP{
+
+    border-radius: 10px;
+    border-style: solid;
+    margin: 8px;
+}
+
+/* aliamento do texto "preço" */
+#precoF1,#precoF2,#precoF3,#precoF4,#precoF5,#precoF6,#precoF7,#precoF8,#precoF9,#precoF10,#precoF11,#precoF12,#precoF13,#precoF14,#precoF15,#preco23,#preco24{
+    text-align: center;
+    
+}
+/* aliamentos das fotos barba */
+#barba{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6px;
+}
+
+/* formato das fotos barba e sobrancelhas */
+#fg16,#fg17,#fg18,#fg19,#fg20,#fg21,#fg22{
+
+    flex-wrap: wrap;
+    border: 2px solid black;
+    width: 289px;
+    height: 355px;
+    margin: 1%;
+    
+}
+
+/* formato das fotos manicure */
+#fg23,#fg24{
+  
+  margin: 6px;
+  border: 2px solid black;
+  width: 287px;
+  height: 170px;
+   
+}
+/* disposição das fotos manicure */
+.manicure{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+
