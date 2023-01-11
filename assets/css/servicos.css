@@ -58,7 +58,6 @@
 
 /* borda externa das fotos */
 .fg1,.fg2,.fg3,.fg4,.fg5,.fg6,.fg7,.fg8,.fg9,.fg10,.fg11,.fg12,.fg13,.fg14,.fg15,.precoM,.precoP{
-
     border-radius: 10px;
     border-style: solid;
     margin: 8px;
@@ -67,6 +66,10 @@
 /* aliamento do texto "preço" */
 #precoF1,#precoF2,#precoF3,#precoF4,#precoF5,#precoF6,#precoF7,#precoF8,#precoF9,#precoF10,#precoF11,#precoF12,#precoF13,#precoF14,#precoF15,#preco23,#preco24{
     text-align: center;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    
     
 }
 /* aliamentos das fotos barba */
@@ -104,6 +107,135 @@
     flex-wrap: wrap;
     
 }
+.fg1:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43); 
+    border-color:yellow;}
+.fg2:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        background-color: rgb(44,43,43); 
+        border-color:yellow;}
+.fg3:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43); 
+    border-color:yellow;}
+.fg4:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5)); 
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43); 
+    border-color:yellow;}
+.fg5:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43); 
+    border-color:yellow;}
+.fg6:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+.fg7:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+.fg8:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+.fg9:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+.fg10:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+    .fg11:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+.fg12:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+.fg13:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+.fg14:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+.fg15:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+    #fg16:hover{
+        -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        background-color: rgb(44,43,43);
+        border-color:yellow;
+    }
+    #fg17:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;
+    }
+    #fg18:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;
+    }
+    #fg19:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;
+    }
+    #fg20:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;
+    }
+    #fg21:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;
+    }
+    #fg22:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;
+    }
+    .precoM:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;
+    }
+    .precoP:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;
+    }
 
 
 
