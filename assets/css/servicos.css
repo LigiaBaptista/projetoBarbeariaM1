@@ -1,6 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Open+Sans:wght@300&display=swap');
 
 
+#agendamento{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 98%;
+    margin: 1%;
+    background: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: #ffcb01 ;
+
+}
+
+#agendamento:hover{
+    
+        -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        background-color: rgb(44,43,43);
+        border-color:yellow;
+        cursor: pointer;
+
+}
+
+
+
+#listaServiços{
+    margin-left: 15%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+
 /* formatação dos títulos */
 .tituloCabelos,.tituloBarbas,.tituloSobrancelha,.tituloManicure{
     font-family: 'Bebas Neue', cursive;
