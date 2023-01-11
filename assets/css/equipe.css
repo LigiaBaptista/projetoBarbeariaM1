@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(255, 203, 1);
+    text-align: center;
+    font-size: 300%;
+}
+
+.equipe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+#fig1, #fig2, #fig3, #fig4, #fig5, #fig6, #fig7, #fig8, #fig9, #fig10{
+    background: white;
+    border: 2px solid black;
+    width: 187px;
+    height: 230px;
+    margin: 6px;
+}
+.equip1, .equip2, .equip3, .equip4, .equip5, .equip6, .equip7, .equip8, .equip9, .equip10{
+    border-radius: 10px;
+    border-style: solid;
+    margin: 8px;
+}
+#text1, #text2, #text3,#text4, #text5, #text6, #text7,#text8, #text9, #text10 {
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.equip1:hover{-webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));background-color: rgb(44,43,43); border-color:yellow;}
+.equip2:hover{-webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));background-color: rgb(44,43,43);border-color:yellow;}
+.equip3:hover{-webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));background-color: rgb(44, 43, 43);border-color:yellow;}
+.equip4:hover{-webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));background-color: rgb(44, 43, 43);border-color:yellow;}
+    .equip5:hover{-webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));background-color: rgb(44, 43, 43);border-color:yellow;}
+.equip6:hover{-webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));background-color: rgb(44, 43, 43);border-color:yellow;}
+.equip7:hover{-webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));background-color: rgb(44, 43, 43);border-color:yellow;}
+.equip8:hover{-webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));background-color: rgb(44, 43, 43);border-color:yellow;}
+.equip9:hover{-webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));background-color: rgb(44, 43, 43);border-color:yellow;}
+.equip10:hover{-webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));background-color: rgb(44, 43, 43);border-color:yellow;}

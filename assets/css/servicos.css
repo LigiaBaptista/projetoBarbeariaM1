@@ -1,51 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Open+Sans:wght@300&display=swap');
 
 
+#agendamento{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 98%;
+    margin: 1%;
+    background: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: #ffcb01 ;
+
+}
+
+#agendamento:hover{
+    
+        -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        background-color: rgb(44,43,43);
+        border-color:yellow;
+        cursor: pointer;
+
+}
+
+
+
+#listaServiços{
+    margin-left: 15%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+
+/* formatação dos títulos */
+.tituloCabelos,.tituloBarbas,.tituloSobrancelha,.tituloManicure{
+    font-family: 'Bebas Neue', cursive;
+    margin: 1%;
+       
+}
+/* disposição das fotos na pagina */
 .tipoCabelo{
     display: flex;
     flex-wrap:wrap ;
-    justify-content: space-between;
-    
-    
+    justify-content: space-between;      
 }
-#cabelos1,#cabelos2,#cabelos3,#cabelos4,#cabelos5,#cabelos6,#cabelos7,#cabelos8,#cabelos9,#cabelos10,#cabelos11,#cabelos12,#cabelos13,#cabelos14,#cabelos15 {
 
+/* bordas da fotos e tamanho das fotos */
+#cabelos1,#cabelos2,#cabelos3,#cabelos4,#cabelos5,#cabelos6,#cabelos7,#cabelos8,#cabelos9,#cabelos10,#cabelos11,#cabelos12,#cabelos13,#cabelos14,#cabelos15 {
     border: 2px solid black;
     width: 187px;
     height: 230px;
-    margin: 6px;
-    
+    margin: 6px;    
 }
-.fg1,.fg2,.fg3,.fg4,.fg5,.fg6,.fg7,.fg8,.fg9,.fg10,.fg11,.fg12,.fg13,.fg14,.fg15,.precoM,.precoP{
 
+/* borda externa das fotos */
+.fg1,.fg2,.fg3,.fg4,.fg5,.fg6,.fg7,.fg8,.fg9,.fg10,.fg11,.fg12,.fg13,.fg14,.fg15,.precoM,.precoP{
     border-radius: 10px;
     border-style: solid;
     margin: 8px;
-
 }
+
+/* aliamento do texto "preço" */
 #precoF1,#precoF2,#precoF3,#precoF4,#precoF5,#precoF6,#precoF7,#precoF8,#precoF9,#precoF10,#precoF11,#precoF12,#precoF13,#precoF14,#precoF15,#preco23,#preco24{
     text-align: center;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
     
-
-
+    
 }
+/* aliamentos das fotos barba */
 #barba{
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     margin: 6px;
 }
+
+/* formato das fotos barba e sobrancelhas */
 #fg16,#fg17,#fg18,#fg19,#fg20,#fg21,#fg22{
-    align-items: flex-start;
+
     flex-wrap: wrap;
     border: 2px solid black;
     width: 289px;
     height: 355px;
-    margin-right: 50px;   
+    margin: 1%;
     
 }
 
+/* formato das fotos manicure */
 #fg23,#fg24{
   
   margin: 6px;
@@ -54,19 +100,143 @@
   height: 170px;
    
 }
+/* disposição das fotos manicure */
 .manicure{
     display: flex;
     text-align: center;
     flex-wrap: wrap;
     
-
-
 }
-.tituloCabelos,.tituloBarbas,.tituloSobrancelha.tituloManicure{
-    font-family: 'Bebas Neue', cursive;
-    color: #ffcb01;
-    
-}
+.fg1:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43); 
+    border-color:yellow;}
+.fg2:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        background-color: rgb(44,43,43); 
+        border-color:yellow;}
+.fg3:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43); 
+    border-color:yellow;}
+.fg4:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5)); 
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43); 
+    border-color:yellow;}
+.fg5:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43); 
+    border-color:yellow;}
+.fg6:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+.fg7:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+.fg8:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+.fg9:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+.fg10:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+    .fg11:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+.fg12:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+.fg13:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+.fg14:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+.fg15:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;}
+    #fg16:hover{
+        -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        background-color: rgb(44,43,43);
+        border-color:yellow;
+    }
+    #fg17:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;
+    }
+    #fg18:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;
+    }
+    #fg19:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;
+    }
+    #fg20:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;
+    }
+    #fg21:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;
+    }
+    #fg22:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;
+    }
+    .precoM:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;
+    }
+    .precoP:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    background-color: rgb(44,43,43);
+    border-color:yellow;
+    }
+
 
 
 
