@@ -1,0 +1,88 @@
+/* css pagina contatos */
+
+form {
+	margin: 3%;
+
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+	flex-wrap: wrap;
+	
+}
+
+#ajusta{
+	width: 50%;
+}
+
+.input-padrao{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+	flex-wrap: wrap;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	flex-wrap: wrap;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+	flex-wrap: wrap;
+}
+
+#titulo{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffcb01;
+	font-size: 36px;
+	flex-wrap: wrap;
+}
+
+#paragrafo{
+	text-align: center;
+	font-size:20px;
+	color: #ffcb01;
+	padding: 2px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	background-color: #000000;
+	flex-wrap: wrap;
+	
+}
+
+#p1{
+	text-align: center;
+	flex-wrap: wrap;
+		
+
+}
+
+
+.mapa{
+	
+	padding: 3em 0;	
+	width: 940px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	
+}
+
