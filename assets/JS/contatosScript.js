@@ -7,11 +7,11 @@ let bolinha = window.document.querySelector('.bolinha')
 function checkInput(){
     if (campoNome.value, campoEmail.value, campoMensagem.value ===''){     
   
-        alert('campos obrigatorios')             
+        alert('Campos Obrigatórios')             
     }         
     
     else{
-        alert ('mensagem enviada com sucesso!') 
+        alert ('Mensagem enviada com sucesso!') 
      }  
 
 
