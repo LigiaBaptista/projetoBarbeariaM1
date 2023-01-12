@@ -31,6 +31,7 @@ form legend {
 	margin: 20px 0;
 }
 
+
 .enviar {
 	width: 40%;
 	padding: 15px 0;
@@ -47,7 +48,7 @@ form legend {
 
 .enviar:hover {
 	background: darkorange;
-	transform: scale(1.2);
+	transform: scale(1.1);
 	flex-wrap: wrap;
 }
 
