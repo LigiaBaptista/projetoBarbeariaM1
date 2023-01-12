@@ -1,23 +1,25 @@
 /* css pagina contatos */
 
+/* Config gerais formulário */
 form {
 	margin: 3%;
 
 }
 
-form label, form legend {
-	display:block;
+form label,
+form legend {
+	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
 	flex-wrap: wrap;
-	
+
 }
 
-#ajusta{
+#ajusta {
 	width: 50%;
 }
 
-.input-padrao{
+.input-padrao {
 	display: block;
 	margin: 0 0 20px;
 	padding: 10px 25px;
@@ -30,7 +32,7 @@ form label, form legend {
 }
 
 .enviar {
-	width:40%;
+	width: 40%;
 	padding: 15px 0;
 	background: orange;
 	color: white;
@@ -49,7 +51,8 @@ form label, form legend {
 	flex-wrap: wrap;
 }
 
-#titulo{
+/* Config seção Nosso Estabelecimento */
+#titulo {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	color: #ffcb01;
@@ -57,32 +60,31 @@ form label, form legend {
 	flex-wrap: wrap;
 }
 
-#paragrafo{
+#paragrafo {
 	text-align: center;
-	font-size:20px;
+	font-size: 20px;
 	color: #ffcb01;
 	padding: 2px;
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	background-color: #000000;
 	flex-wrap: wrap;
-	
+
 }
 
-#p1{
+#p1 {
 	text-align: center;
 	flex-wrap: wrap;
-		
+
 
 }
 
+/* Config Mapa */
+.mapa {
 
-.mapa{
-	
-	padding: 3em 0;	
+	padding: 3em 0;
 	width: 940px;
 	margin: 0 auto;
 	flex-wrap: wrap;
-	
-}
 
+}

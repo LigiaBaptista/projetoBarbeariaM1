@@ -1,3 +1,4 @@
+// Validação do Formulário
 let forma = window.document.querySelector('.formas')
 let campoNome = window.document.querySelector('#nomesobrenome')
 let campoEmail = window.document.querySelector('#email')

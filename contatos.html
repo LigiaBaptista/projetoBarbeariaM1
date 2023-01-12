@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/assets/css/style.css">
-        <link rel="stylesheet" href="/assets/css/contato.css">
-        
-        <title>Clube da Barba</title>
-    </head>
-    <body>
-        <header class="containerHeader">
-            <img class="imgHeader" src="./assets/img/Logotipo Nome Monograma Minimalista Preto e Branco.png" alt="Logotipo Clube da Barba">
-            <div class="linksHeader">
-                    <a href="index.html">Quem Somos</a>
-                    <a href="produtos.html">Serviços</a>
-                    <a href="equipe.html">Equipe</a>
-                    <a href="contatos.html">Contatos</a>
-            </div>            
-        </header>  
 
-        <main>
-            <h1>Contatos</h1>    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/contato.css">
 
-            <form class="formas">
-                <div>
+    <title>Clube da Barba</title>
+</head>
+
+<body>
+    <header class="containerHeader">
+        <img class="imgHeader" src="./assets/img/Logotipo Nome Monograma Minimalista Preto e Branco.png"
+            alt="Logotipo Clube da Barba">
+        <div class="linksHeader">
+            <a href="index.html">Quem Somos</a>
+            <a href="produtos.html">Serviços</a>
+            <a href="equipe.html">Equipe</a>
+            <a href="contatos.html">Contatos</a>
+        </div>
+    </header>
+
+    <main>
+        <h1>Contatos</h1>
+<!-- Criação e config formulário -->
+        <form class="formas">
+            <div>
                 <label for="nomesobrenome">Nome e sobrenome</label>
                 <input type="text" id="nomesobrenome" class="input-padrao">
 
@@ -33,51 +36,59 @@
 
                 <label for="telefone">Telefone</label>
                 <input type="tel" id="telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX">
-            
-            
-                
-                <label id="ajusta" for="mensagem">Mensagem</label>        
-                <textarea type="text" cols="70" rows="10" id="mensagem" class="input-padrao" ></textarea>
-                <div class="bolinha" ><div>
-                </div>
 
-                <fieldset id="ajusta">
-                    <legend>Como prefere o nosso contato?</legend>
-                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
-                    
-                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
-                    
-                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
-                </fieldset>
-            
-                    <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+
+                <label id="ajusta" for="mensagem">Mensagem</label>
+                <textarea type="text" cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+                <div class="bolinha">
+                    <div>
+                    </div>
+
+                    <fieldset id="ajusta">
+                        <legend>Como prefere o nosso contato?</legend>
+                        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">
+                            Email</label>
+
+                        <label for="radio-telefone"><input type="radio" name="contato" value="telefone"
+                                id="radio-telefone"> Telefone</label>
+
+                        <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp"
+                                id="radio-whatsapp" checked> WhatsApp</label>
+                    </fieldset>
+
+                    <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por
+                        email?</label>
 
                     <!-- <button onclick="checkInput()" > enviar </button> -->
-                    <input type="submit" onclick="checkInput()"  value="Enviar formulário" class="enviar">
-            </form>
+                    <input type="submit" onclick="checkInput()" value="Enviar formulário" class="enviar">
+        </form>
 
-        </main>
-        <section class="mapa-todo" >
-            <h2 id="titulo" >Nosso estabelecimento</h2>
-            <p id="p1" >Nosso estabelecimento está localizado no coração da cidade.</p>
-            <div class="telefone-contato">
-            <p id="paragrafo"> Fale conosco: (11) 999999999 / Atendimento: De Terça a Domingo das 8 até 20 hrs.</p>
-            </div>
-                
-            <div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.5652573436496!2d-46.705589785022596!3d-23.548133884689417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57ceb4f7e35f%3A0xc5421849ee89933b!2sR.%20Vitorino%20de%20Carvalho%2C%20353%20-%20Vila%20Madalena%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005447-140!5e0!3m2!1spt-BR!2sbr!4v1673309355033!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="auto" style="border:0;" allowfullscreen=""></iframe>
-            </div>
-        </section>
+    </main>
+    <!-- Seção informação estabelecimento e criação mapa  -->
+    <section class="mapa-todo">
+        <h2 id="titulo">Nosso estabelecimento</h2>
+        <p id="p1">Nosso estabelecimento está localizado no coração da cidade.</p>
+        <div class="telefone-contato">
+            <p id="paragrafo"> Fale conosco: (11) 99999-9999 / Atendimento: De Terça a Domingo das 8 até 20 hrs.</p>
+        </div>
 
-        <script src="./assets/JS/contatosScript.js" ></script>
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.5652573436496!2d-46.705589785022596!3d-23.548133884689417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57ceb4f7e35f%3A0xc5421849ee89933b!2sR.%20Vitorino%20de%20Carvalho%2C%20353%20-%20Vila%20Madalena%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005447-140!5e0!3m2!1spt-BR!2sbr!4v1673309355033!5m2!1spt-BR!2sbr"
+                width="100%" height="300" frameborder="auto" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </section>
 
-
-        <footer>
-            <div class="footerSettings">
-                <p class="textFooter"> Todos os direitos reservados</p> <img id="imgFooter" src="/assets/img/simboloCopyrightCinza.png" alt="Simbolo de copyright">
-            </div>
-        </footer>
+    <script src="./assets/JS/contatosScript.js"></script>
 
 
-    </body>
+    <footer>
+        <div class="footerSettings">
+            <p class="textFooter"> Todos os direitos reservados</p> <img id="imgFooter"
+                src="/assets/img/simboloCopyrightCinza.png" alt="Simbolo de copyright">
+        </div>
+    </footer>
 
+
+</body>
